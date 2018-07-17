@@ -1,1 +1,1 @@
-# Trainign Material (Microsoft Azure)
+# Training Material (Microsoft Azure)
