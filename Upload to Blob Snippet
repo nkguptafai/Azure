@@ -1,0 +1,22 @@
+protected void UploadButton_Click(object sender, EventArgs e)
+        {
+            // Retrieve storage account from connection string.
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=cloudlabtest;AccountKey=QyD9BlmWTqUkLvi0jcImZFpokbfq6+QVkRSq+8yexXTBNs5JIBddsKoumuuQ4QB/x4goM2NRJP0YoTgeqCtjVA==;EndpointSuffix=core.windows.net");
+
+            // Create the blob client.
+            CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+
+            // Retrieve reference to a previously created container.
+            CloudBlobContainer container = blobClient.GetContainerReference("cloudlabcontainer");
+
+            // Retrieve reference to a blob named "myblob".
+            CloudBlockBlob blockBlob = container.GetBlockBlobReference("uploads/"+FileUpload1.FileName);
+
+            // Create or overwrite the "myblob" blob with contents from a local file.
+            //var fileStream = System.IO.File.OpenRead(FileUpload1.FileName);
+            
+            
+                blockBlob.UploadFromStream(FileUpload1.FileContent);
+            
+
+        }
