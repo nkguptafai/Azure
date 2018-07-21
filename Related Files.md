@@ -11,3 +11,11 @@ Service Bus Getting started http://www.c-sharpcorner.com/article/get-start-with-
 Service Bus Client and Receive Applications http://www.c-sharpcorner.com/article/azure-service-bus-queues/
 
 Cosmos DB Getting Started https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started
+
+Design Patterns: https://docs.microsoft.com/en-us/azure/architecture/patterns/
+
+Security Best Practices https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns
+
+Azure Architecture Center: https://docs.microsoft.com/en-us/azure/architecture/
+
+
