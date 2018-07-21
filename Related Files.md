@@ -12,10 +12,28 @@ Service Bus Client and Receive Applications http://www.c-sharpcorner.com/article
 
 Cosmos DB Getting Started https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started
 
+=====================================================================================================
+
 Design Patterns: https://docs.microsoft.com/en-us/azure/architecture/patterns/
 
 Security Best Practices https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns
 
 Azure Architecture Center: https://docs.microsoft.com/en-us/azure/architecture/
 
+=====================================================================================================
 
+Azure Migration Plans and Strategy 
+  https://azure.microsoft.com/en-in/migration/assess/
+  
+Sample reference migration assessment of Contoso Application
+  https://docs.microsoft.com/en-in/azure/migrate/contoso-migration-assessment
+
+Migration Planning
+  https://www.agileit.com/news/step-by-step-azure-migration-planning/ 
+  
+  ===================================================================================
+  
+  Certification
+    https://www.microsoft.com/en-us/learning/azure-exams.aspx
+  
+  
